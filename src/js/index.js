@@ -24,9 +24,8 @@ xx + 1;
 function testPromise(param) {
     return new Promise((resove) => {
         if (param) {
-            resove("xixi");
-        } else {
-            reject("wuwu");
+
+            resove("success");
         }
     });
 }
